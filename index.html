@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alejandro Escobar — Roblox Lead Programmer</title>
+<meta name="description" content="Portfolio of Alejandro Escobar (cebar2002), Roblox Lead Programmer with 6+ years of experience in Luau.">
+<style>
+  :root{
+    --bg:#0e1116; --panel:#161b22; --line:#262d36; --text:#e6e9ee; --muted:#9aa4b2;
+    --accent:#4da3ff; --accent-soft:rgba(77,163,255,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:880px;margin:0 auto;padding:0 24px}
+
+  nav{position:sticky;top:0;z-index:10;background:rgba(14,17,22,.85);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;gap:22px;align-items:center;height:56px;overflow-x:auto}
+  nav .brand{font-weight:700;color:var(--text);margin-right:auto;white-space:nowrap}
+  nav a.l{color:var(--muted);font-size:14px;white-space:nowrap}
+  nav a.l:hover{color:var(--text);text-decoration:none}
+
+  header{padding:72px 0 48px}
+  header h1{font-size:clamp(32px,5vw,46px);line-height:1.15;letter-spacing:-.02em}
+  header h1 span{color:var(--accent)}
+  header .meta{color:var(--muted);margin-top:10px}
+  .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .btn{display:inline-block;padding:8px 16px;border:1px solid var(--line);border-radius:8px;color:var(--text);font-size:14px;background:var(--panel)}
+  .btn:hover{border-color:var(--accent);text-decoration:none}
+
+  section{padding:40px 0;border-top:1px solid var(--line)}
+  h2{font-size:24px;margin-bottom:18px;letter-spacing:-.01em}
+  h2 small{display:block;color:var(--muted);font-size:14px;font-weight:400;margin-top:4px}
+  p{margin-bottom:12px}
+  .muted{color:var(--muted)}
+  .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+  .tag{background:var(--accent-soft);color:var(--accent);padding:3px 10px;border-radius:999px;font-size:13px}
+  .kv{margin-top:18px;display:grid;gap:10px}
+  .kv b{color:var(--text)}
+
+  table{width:100%;border-collapse:collapse;font-size:15px}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:500;font-size:13px;text-transform:uppercase;letter-spacing:.04em}
+  td:first-child{color:var(--muted);width:30%;white-space:nowrap}
+  .tablebox{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:22px 24px;margin-bottom:16px}
+  .card h3{font-size:19px}
+  .card .sub{color:var(--muted);font-size:14px;margin:4px 0 12px}
+  .card .role{color:var(--accent);font-weight:500;font-size:15px}
+  .card ul{padding-left:20px}
+  .card li{margin-bottom:6px}
+  .card li b{color:var(--text)}
+
+  .compact li{margin-bottom:14px}
+  .compact li b{color:var(--text)}
+
+  .videos{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:8px}
+  .video{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .video .frame{position:relative;aspect-ratio:16/9;background:#000}
+  .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .video figcaption{padding:12px 16px;font-size:14px;color:var(--muted)}
+  .video figcaption b{display:block;color:var(--text);font-size:15px;margin-bottom:2px}
+  @media (max-width:700px){.videos{grid-template-columns:1fr}}
+
+  footer{border-top:1px solid var(--line);padding:28px 0 48px;color:var(--muted);font-size:14px}
+
+  @media (max-width:600px){
+    td:first-child{white-space:normal;width:38%}
+    .card{padding:18px}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <span class="brand">cebar2002</span>
+    <a class="l" href="#about">About</a>
+    <a class="l" href="#stack">Stack</a>
+    <a class="l" href="#brands">Brands</a>
+    <a class="l" href="#projects">Projects</a>
+    <a class="l" href="#showcase">Showcase</a>
+    <a class="l" href="#earlier">Earlier work</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <h1>Alejandro Escobar<br><span>Roblox Lead Programmer</span></h1>
+    <p class="meta">cebar2002 · Santiago, Chile</p>
+    <div class="links">
+      <a class="btn" href="https://www.roblox.com/users/95914583/profile" target="_blank" rel="noopener">Roblox Profile</a>
+      <a class="btn" href="https://devforum.roblox.com/u/cebar2002" target="_blank" rel="noopener">DevForum</a>
+      <a class="btn" href="https://www.linkedin.com/in/alejandro-jos%C3%A9-alberto-escobar-varas-939b0a286" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Roblox programmer with 6+ years on the platform, specializing in Luau. Since 2020 I have led programming on games across very different genres: simulators, tower defense, roleplay, sports and life-sim. The games I have worked on have more than 22 million visits combined.</p>
+    <p>I specialize in building a game's core systems end to end: vehicles and physics, economies and progression, cross-server events, data persistence, NPC AI and user interfaces. I write clean code with server-side validation and a project structure built to scale.</p>
+    <div class="kv">
+      <div><b>Skills</b>
+        <div class="tags"><span class="tag">Programming</span><span class="tag">Team leadership</span><span class="tag">Community</span><span class="tag">Roleplay</span></div>
+      </div>
+      <div><b>Languages</b>
+        <div class="tags"><span class="tag">Spanish (native)</span><span class="tag">English (fluent)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack">
+    <h2>Tech stack</h2>
+    <div class="tablebox">
+      <table>
+        <tr><th>Area</th><th>Tools and practices</th></tr>
+        <tr><td>Language &amp; environment</td><td>Luau (strict typing), developing directly in Roblox Studio</td></tr>
+        <tr><td>Architecture</td><td>My own custom framework; client/server with server-side validation</td></tr>
+        <tr><td>Knit</td><td>Experience working on top of Knit, for projects already built on it</td></tr>
+        <tr><td>Roblox services</td><td>DataStore, MessagingService, PathfindingService, the new Audio API (AudioEmitter, AudioListener) for 3D audio</td></tr>
+        <tr><td>Libraries</td><td>SimplePath, BTrees (Behavior Trees), FastCast Redux, ZonePlus, Iris, TopbarPlus, Raycast Hitbox, PartCache</td></tr>
+        <tr><td>Other tools</td><td>Adobe Photoshop, Premiere Pro, After Effects</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="brands">
+    <h2>Brand experiences<small>Built with Cactus Studios for Peruvian brands, through the agency Colour Pe.</small></h2>
+
+    <div class="card">
+      <h3><a href="https://www.roblox.com/games/138101744561060" target="_blank" rel="noopener">Toritolandia</a></h3>
+      <div class="role">Lead Programmer</div>
+      <div class="sub">Cactus Studios · Jul 2026 – Sep 2026 · Client: Peruvian insurance company (ABC de Pacífico)</div>
+      <p>Branded life-sim experience on Roblox. I developed the game's core systems in Luau:</p>
+      <ul>
+        <li><b>Vehicles:</b> custom car system, including chassis and driving physics.</li>
+        <li><b>Jobs:</b> taxi and delivery activities that let players earn in-game income.</li>
+        <li><b>Businesses:</b> players own and run their own business.</li>
+        <li><b>Housing:</b> player houses with exterior decoration.</li>
+        <li><b>Dynamic events:</b> weather, earthquakes and positive events (customer rushes and tourist waves that boost taxi demand), tied to the brand's message about risk and protection.</li>
+        <li><b>Missions:</b> quest system that guides player progression.</li>
+        <li><b>Dialogue assistant:</b> in-game guide that helps players along.</li>
+        <li><b>UI and global leaderboards:</b> the full interface and worldwide rankings.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3><a href="https://www.roblox.com/games/18393534895" target="_blank" rel="noopener">SIP Soccer Stadium</a></h3>
+      <div class="role">Lead Programmer</div>
+      <div class="sub">Cactus Studios · Apr 2026 – Jul 2026 · Client: Banco SIP (Peru)</div>
+      <p>Branded soccer experience. I was the sole programmer and wrote all of the code in Luau:</p>
+      <ul>
+        <li><b>Soccer mechanics:</b> ball control, passing, shooting and match flow.</li>
+        <li><b>Game modes:</b> standard match, team possession and free-for-all possession.</li>
+        <li><b>Locker:</b> players equip and customize items from a personal locker.</li>
+        <li><b>Gacha packs:</b> collectible packs with randomized rewards that unlock cosmetic effects.</li>
+        <li><b>UGC code redemption:</b> promotional codes redeemable for UGC items, part of the brand campaign.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Recent projects<small>2023 – present</small></h2>
+
+    <div class="card">
+      <h3><a href="https://www.roblox.com/games/119086024240971" target="_blank" rel="noopener">Base vs Brainrots</a></h3>
+      <div class="role">Lead Programmer</div>
+      <div class="sub">Cactus Studios · Oct 2025 – Dec 2025</div>
+      <p>Tower defense game published by Cactus! Studios: waves of brainrots attack and players build defenses to hold them off. I built the main systems in Luau:</p>
+      <ul>
+        <li><b>RNG enemy generation:</b> each brainrot gets a random type, rarity and weight; weight scales its size and health.</li>
+        <li><b>Build mode:</b> building on a 4x4 grid.</li>
+        <li><b>Defenses:</b> turrets with different attack types and custom effects.</li>
+        <li><b>Passive income plots:</b> brainrots placed on plots keep earning money even while the player is offline.</li>
+        <li><b>Cross-server global events:</b> events that run on every server at once, such as lightning storms that grant mutations, plus night and galaxy events.</li>
+        <li><b>Global shop:</b> shop shared across servers, with limited stock that restocks on a timer.</li>
+        <li><b>Admin tools:</b> “admin abuse” events to spawn brainrots on every plot or for specific players, with chosen mutations and sizes, give out items and broadcast messages to all servers.</li>
+        <li>Global leaderboards and performance optimization.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3><a href="https://www.roblox.com/games/13749947640" target="_blank" rel="noopener">Baseplate Battles</a></h3>
+      <div class="role">Lead Programmer</div>
+      <div class="sub">Cactus Studios · Jun 2024 – Nov 2024</div>
+      <p>Survival game on a baseplate that shrinks every second. I developed nearly all of its systems:</p>
+      <ul>
+        <li><b>Gloves:</b> full functionality, abilities, knockback on hit and passive abilities.</li>
+        <li><b>Titles:</b> titles above the character, in chat and in the UI.</li>
+        <li><b>Inventory:</b> purchased gloves, swords, abilities and items.</li>
+        <li><b>Core mechanics:</b> the shrinking baseplate and map and difficulty voting.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3><a href="https://www.roblox.com/games/15948286480" target="_blank" rel="noopener">NEED MORE IQ</a></h3>
+      <div class="role">Lead Programmer</div>
+      <div class="sub">Cactus Studios · Jan 2024 – Apr 2024</div>
+      <p>“Need more” genre game, built together with other programmers on the team:</p>
+      <ul>
+        <li><b>Scenes:</b> Magazine, Nuke Action and Chemicals.</li>
+        <li><b>Interfaces:</b> shop and donation leaderboard.</li>
+        <li><b>Cross-server communication:</b> service to trigger events on every server (messages, nuke, etc.).</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3><a href="https://www.roblox.com/games/14544359097" target="_blank" rel="noopener">Mining Battle Simulator</a></h3>
+      <div class="role">Lead Programmer</div>
+      <div class="sub">Cactus Studios · Aug 2023 – Dec 2023</div>
+      <p>Mining race simulator:</p>
+      <ul>
+        <li><b>Pets:</b> pet system and egg hatching.</li>
+        <li><b>Mining races:</b> the main game mode.</li>
+        <li><b>Shop:</b> including the option to gift gamepasses to other players.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="showcase">
+    <h2>System showcase: Feirodyll<small>Medieval roleplay project · discontinued due to high development costs</small></h2>
+    <p>Systems I built for Feirodyll, a medieval roleplay game. The project was shelved, but these systems show the kind of gameplay programming I do.</p>
+    <div class="videos">
+      <figure class="video">
+        <div class="frame"><iframe src="https://www.youtube-nocookie.com/embed/Xb4PlwAvX94" title="NPC system with Behavior Trees" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+        <figcaption><b>NPC AI</b> NPC system driven by Behavior Trees.</figcaption>
+      </figure>
+      <figure class="video">
+        <div class="frame"><iframe src="https://www.youtube-nocookie.com/embed/fiY2gSv2gkQ" title="Sword combat system" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+        <figcaption><b>Sword combat</b> Melee system using Raycast Hitbox.</figcaption>
+      </figure>
+      <figure class="video">
+        <div class="frame"><iframe src="https://www.youtube-nocookie.com/embed/Vl2NwmHzLrk" title="Ships with cannons" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+        <figcaption><b>Ships</b> Sailing ships with working cannons.</figcaption>
+      </figure>
+      <figure class="video">
+        <div class="frame"><iframe src="https://www.youtube-nocookie.com/embed/5KvoLGt_6sY" title="Horse system" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+        <figcaption><b>Horses</b> Rideable horse system.</figcaption>
+      </figure>
+      <figure class="video">
+        <div class="frame"><iframe src="https://www.youtube-nocookie.com/embed/pbFFdHbVhlw" title="Bow system" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+        <figcaption><b>Archery</b> Bow and arrow system.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="earlier">
+    <h2>Earlier work<small>2019 – 2022</small></h2>
+    <ul class="compact" style="padding-left:20px">
+      <li><b>La Concordia</b> · Programmer · May 2022 – Jul 2024<br><span class="muted">Chilean city roleplay: banking, bank and jewelry heists, vehicles and radio.</span></li>
+      <li><b>[RP] Coruscant</b> · Programmer · Aug 2022 – Nov 2022<br><span class="muted">Star Wars roleplay: playtime-based XP with ranks, weapons and divisions, and NPCs that react to gunfire and lightsabers.</span></li>
+      <li><b><a href="https://www.roblox.com/games/5325519885/SCP-Sitio-44v5-Voice-Chat" target="_blank" rel="noopener">[SCP] Sitio 44v5</a></b> · Programmer and community organizer · 2019 – 2022<br><span class="muted">SCP roleplay community that reached 1,000 members with 20–30 active players. I programmed almost the entire game (SCPs, doors, nuclear reactor and weapons) and organized the community.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Alejandro Escobar · cebar2002</div>
+</footer>
+
+</body>
+</html>
